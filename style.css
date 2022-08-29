@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #1f253d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    --pink: #ff74a4;
+    --violet: #9f6ea3;
+    --green-color: #11a8ab;
+    --red-color: #e64c65;
+    --blue-color: #4fc4f6;
+    --dark-blue-color: #3468af;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------ Nav Bar -----------------  */
+.nav-bar {
+    width: inherit;
+    background: #394165;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    height: 50px;
+}
+
+.nav-items {
+    display: flex;
+    color: #FFFFFF;
+    background: #394165;
+    margin: 0px 20px 0px 25px;
+    align-items: center;
+}
+
+.nav-items img {
+    margin-right: 10px;
+}
+
+.profile {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    color: #ffffff;
+    margin-left: 20vw;
+}
+
+.profile button {
+    background: none;
+    border: none;
+}
+
+.profile img {
+    margin-left: 5px;
+}
+
+
+
+.parent-container {
+    justify-content: center;
+    display: flex;
+    flex: row;
+}
+
+.parent-column-1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent-column-2 {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent-column-3 {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 1250px) {
+    .parent-container {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    .parent-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width: 500px) { 
+    .parent-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+  }
+}
+
+@media (max-width: 400px) { 
+    .parent-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+  }
+}
+
+
+@media (max-width: 300px) { 
+    .parent-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+  }
+}

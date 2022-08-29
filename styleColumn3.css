@@ -1,0 +1,383 @@
+/* ------------ Join News Letter -----------------  */
+.join-news-letter {
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+    background: #394165;
+    padding: 25px;
+}
+
+.join-news-letter h4 {
+    text-align: center;
+    color: #fff;
+}
+
+.join-news-letter h4 {
+    text-align: center;
+    color: #fff;
+}
+
+.join-news-letter .email-box {
+    width: auto;
+    display: flex;
+    padding: 5px;
+    border-radius: 3px;
+    align-content: center;
+    background: #50587c;
+}
+
+.email-box .text-area {
+    background: #50587c;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.join-news-letter .subscribe {
+    background: #10a8ab;
+    color: #fff;
+    width: auto;
+    margin: 15px 0px 0px 55px;
+    height: 35px;
+    padding: 0px 15px 0px 15px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+/* ----------- Sign In To Account ---------- */
+
+.account-sign-in {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 3px;
+    background: #394165;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-sign-in h4 {
+    text-align: center;
+    color: #fff;
+}
+
+.account-sign-in .email-box {
+    width: auto;
+    display: flex;
+    padding: 5px;
+    border-radius: 3px;
+    align-content: center;
+    background: #50587c;
+}
+
+.account-sign-in .pass-box {
+    width: auto;
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    align-content: center;
+    background: #50587c;
+}
+
+.email-box .text-area {
+    background: #50587c;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.pass-box .text-area {
+    background: #50587c;
+    border: none;
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+.account-sign-in .sign-in {
+    background: #e64c66;
+    color: #fff;
+    height: 35px;
+    width: 150px;
+    margin-left: 35px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 2px;
+}
+
+.account-sign-in span {
+    margin-top: 15px;
+    margin-left: 50px;
+    color: #8a93b4;
+}
+
+
+/* ----------- Downloading and Uploading section ------------ */
+
+.download-upload-section {
+    width: 300px;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    padding: 10px;
+    background: #394165;
+    border-radius: 3px;
+}
+
+.download-section {
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.download-bar-container {
+    background-color: #50587c;
+    width: 100%;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.download-bar {
+    background-color: #10a8ab;
+    color: white;
+    padding: 1%;
+    height: inherit;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.download-progress {
+    width: 80%;
+}
+
+.download-percentage {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.upload-section {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-bar-container {
+    background-color: #50587c;
+    width: 100%;
+    height: 20px;
+    border-radius: 3px;
+}
+
+.upload-bar {
+    background-color: #4dc6f3;
+    color: white;
+    padding: 1%;
+    height: inherit;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.upload-progress {
+    width: 43%;
+}
+
+.upload-percentage {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+
+
+/* ----------- Add Event ---------- */
+
+.addevent {
+    width: 300px;
+    float: right;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.addevent .weekday {
+    background: #195092;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.weekday .top-bar {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.weekday .top-bar .center {
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.weekday .left-arrow {
+    float: left;
+    margin-right: 50px;
+}
+
+.weekday.right-arrow {
+    float: right;
+}
+
+
+.mid-section {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #3469af;
+    color: #fff;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-section .date {
+    font-size: 45px;
+}
+
+.mid-section .addeventbtn {
+    margin: 20px;
+    background: #53c2f9;
+    border: none;
+    width: 100px;
+    color: #fff;
+    height: 35px;
+    border-radius: 2px;
+}
+
+
+/* ----------- Calender ---------- */
+
+.calender {
+    width: 300px;
+    float: right;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.month {
+    background: #3667b3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.month .top-bar {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.month .top-bar .center {
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .left-arrow {
+    float: left;
+    margin-right: 50px;
+}
+
+.month .right-arrow {
+    float: right;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 5px;
+    background-color: #394165;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 12%;
+    color: #6595bc;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 5px;
+    background: #394165;
+    margin: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #8b93b7;
+}
+
+.days li .active {
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    background: #f63765;
+
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+
+    .weekdays li,
+    .days li {
+        width: 13.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .weekdays li,
+    .days li {
+        width: 12.5%;
+    }
+
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+
+    .weekdays li,
+    .days li {
+        width: 12.2%;
+    }
+}

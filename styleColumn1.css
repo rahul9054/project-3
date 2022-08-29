@@ -1,0 +1,339 @@
+/* ------------ Menu Box -----------------  */
+
+.container {
+    padding: 0px;
+}
+
+.card {
+    width: 300px;
+    height: 420px;
+    background-color: #394165;
+    border-radius: 3px;
+}
+
+.header {
+    border-radius: 3px 3px 0px 0px;
+    padding: 5px;
+    background-color: #10a8ab;
+}
+
+.container h3 {
+    color: #FFFFFF;
+    margin-left: 5rem;
+}
+
+.iconM {
+    font-size: 18px;
+    margin-left: 170px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.body li {
+    transition: 1s all;
+    font-size: 18px;
+    padding: 15px;
+    margin-left: -40px;
+    margin-top: 0px;
+    color: #fff;
+    list-style: none;
+    display: block;
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+}
+
+li:hover {
+    transition: 1s all;
+    color: #2f89fc;
+    background-color: rgba(42, 56, 65, 0.82);
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    cursor: pointer;
+}
+
+.body>li {
+    float: left;
+}
+
+.body li ul {
+    background: #1E2B32;
+    margin-left: 280px;
+    margin-top: -38px;
+    display: none;
+    position: absolute;
+    border-top-right-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+}
+
+.body li:hover>ul {
+    display: block;
+    cursor: pointer;
+}
+
+
+/* ----------- Audience Stats section ------------> */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.audience-os-stats {
+    width: 300px;
+    height: 350px;
+    background-color: #394165;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.audience-os-stats .audience-os-stats-heading span {
+    color: #fff;
+    letter-spacing: 1px;
+    justify-content: center;
+}
+
+.audience-os-stats-graph section {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #787878;
+}
+
+.audience-os-stats-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ios-os-version-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ios-os-version-container .top-bar {
+    background: #d25470;
+    margin-right: 2px;
+    height: 5px;
+}
+
+.mac-os-version-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mac-os-version-container .top-bar {
+    background: #14a4aa;
+    margin-right: 2px;
+    height: 5px;
+}
+
+
+.linux-os-version-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.linux-os-version-container .top-bar {
+    background: #ecb368;
+    margin-right: 2px;
+    height: 5px;
+}
+
+.win-os-version-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.win-os-version-container .top-bar {
+    background: #5cbff1;
+    margin-right: 2px;
+    height: 5px;
+}
+
+.os-version {
+    display: flex;
+    align-items: center;
+    background: #50587c;
+    width: 73px;
+    height: 60px;
+    justify-content: center;
+    margin-right: 2px;
+    color: #fff;
+}
+
+.os-version span {
+    margin-left: 8px;
+}
+
+
+
+@media(max-width:612px) {
+    .box {
+        flex-grow: 0.7;
+    }
+}
+
+
+/* -------- stocks-analysis ------------ */
+
+.stocks-analysis {
+    background: #394165;
+    width: 300px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.stock-analysis-image {
+    width: 100%;
+    height: 13rem;
+    background-color: var(--green-color);
+}
+
+.analysis-options {
+    background: #394165;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.analysis-button {
+    width: 25%;
+    height: 1.5rem;
+    color: white;
+    background-color: #50597b;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.25rem;
+}
+
+.analysis-button-month {
+    background-color: var(--red-color);
+}
+
+.analysis-months-container {
+    display: flex;
+    flex-direction: column;
+    background: #394165;
+    justify-content: center;
+
+}
+
+.analysis-month {
+    display: flex;
+    color: #fff;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.analysis-month-text {
+    margin-right: 0.5rem;
+}
+
+.analysis-year {
+    color: #8891af;
+    margin-right: 40%;
+}
+
+.analysis-percent {
+    display: flex;
+}
+
+.analysis-plus {
+    color: var(--red-color);
+}
+
+.analysis-percent-symbol {
+    font-size: 0.7rem;
+}
+
+
+/* ----------- Media Player section ------------> */
+
+.media-player-section {
+    display: flex;
+    width: 300px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.media-player-section .media-image-area {
+    background: #787878;
+    width: 100%;
+    display: flex;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress-area {
+    height: 6px;
+    width: 60%;
+    border-radius: 50px;
+    background: #51597d;
+    cursor: pointer;
+}
+
+.progress-area .progress-bar {
+    height: inherit;
+    width: 50%;
+    position: relative;
+    border-radius: inherit;
+    background: #e54c68;
+}
+
+.progress-bar::before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    top: 50%;
+    right: -5px;
+    z-index: 2;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(-50%);
+    background: inherit;
+    transition: opacity 0.2s ease;
+}
+
+.progress-area:hover .progress-bar::before {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px;
+    background: #394165;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls .timer {
+    margin-left: 50px;
+}
