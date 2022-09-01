@@ -2,23 +2,26 @@
 
 
 .box {
-    width: 300px;
+    width: 70%;
     height: 340px;
     background-color: #394165;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
+    border-radius: .2rem;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px 0px 20px;
-    border-radius: 3px;
-    position: relative;
+    padding: 5% 0% 0% 0%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-left: 80%;
 }
 
 .nav button {
     background: none;
     border: none;
-    margin-left: 200px;
 }
 
 .details {
@@ -29,98 +32,90 @@
 }
 
 .details section {
-    width: 100px;
+    width: 80%;
     height: 100px;
     border-radius: 50%;
     background: #787878;
 }
 
 .details strong {
-    font-weight: 500;
+    font-weight: 3rem;
     color: #ffffff;
-    letter-spacing: 1px;
+    letter-spacing: .05rem;
     margin-top: 10px;
 }
 
 .details p {
     font-size: 0.8rem;
     color: #7a7a7a;
-    margin: 5px 0px;
+    margin: 5% 0%;
 }
 
 .like-section {
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
 
 .like-section .top-bar {
     background: #5cbff1;
-    margin-right: 2px;
     height: 5px;
 }
 
 
 .views-section {
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
 
 .views-section .top-bar {
     background: #ecb368;
-    margin-right: 2px;
+    margin-right: 1%;
     height: 5px;
 }
 
 .comments-section {
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
 
 .comments-section .top-bar {
     background: #d25470;
-    margin-right: 2px;
+    margin-right: 1%;
     height: 5px;
 }
 
 
 
 .team-member-footer {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
 .team-member-footer .comments-views-likes {
     display: flex;
     align-items: center;
     background: #50587c;
-    width: 98px;
     height: 60px;
     justify-content: center;
-    margin-right: 2px;
+    margin-right: 1%;
     color: #fff;
 }
 
 .team-member-footer .comments-views-likes span {
-    margin-left: 8px;
+    margin-left: 8%;
 }
-
-
-
-@media(max-width:612px) {
-    .box {
-        flex-grow: 0.7;
-    }
-}
-
 
 /* -------- Weather Update Section ------------ */
 
 .weather-updates-section {
-    width: 300px;
+    width: 70%;
     display: flex;
     flex-direction: column;
-    border: 3px;
-    margin-top: 20px;
+    border: .2rem;
+    margin-top: 10%;
     justify-content: space-between;
 }
 
@@ -128,13 +123,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 5%;
     color: #fff;
     background: #cc324c;
 }
 
 .weather-updates-top-bar .location {
-    margin-right: 15px;
+    margin-right: 3%;
 }
 
 .date-temp-section {
@@ -148,42 +143,51 @@
 .date-temp-section .date {
     font-size: 20px;
     color: #ffd4dc;
-    margin-top: 10px;
+    margin-top: 5%;
 }
 
 .date-temp-section .temp {
     font-size: 40px;
     color: #fffc;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 .day-wise-weather-updates {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .week-day-weather {
+    width: 100%;
     background: #394165;
     display: flex;
     align-items: center;
-    padding: 20px;
-    margin-bottom: 2px;
+    padding: 5%;
+    margin-bottom: .3%;
 }
 
 .week-day-weather .day {
+    font-size: .8rem;
     color: #fff;
 }
 
 .week-day-weather .date {
-    margin-left: 10px;
+    font-size: .8rem;
+    margin-left: 5%;
     color: #6b7397;
 }
 
 .week-day-weather .temp {
-    margin-left: 120px;
-    margin-right: 10px;
+    font-size: .8rem;
+    margin-left: 45%;
     color: #e9eff6;
+}
+
+.week-day-weather img {
+    margin-left: 5%;
+    margin-right: 2%;
 }
 
 
@@ -192,21 +196,18 @@
 
 
 .tweets-section {
-    width: 300px;
+    width: 70%;
     float: right;
     display: flex;
-    margin-top: 20px;
+    margin-top: 10%;
     flex-direction: column;
 }
 
 .tweets-section .latest-tweets {
     background: #35aadd;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+    padding: 5%;
 }
 
 .latest-tweets .latest-tweets-bar {
@@ -220,7 +221,7 @@
 .tweet-1 {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10%;
     background: #394165;
     color: #fff;
     font-size: 14px;
@@ -235,12 +236,12 @@
 .tweet-2 {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    padding: 10%;
+    border-bottom-left-radius: .2rem;
+    border-bottom-right-radius: .2rem;
     background: #394165;
     color: #fff;
-    margin-top: 2px;
+    margin-top: .5%;
     font-size: 14px;
 }
 
@@ -248,92 +249,92 @@
 
 /* ----------- Share to Socail Handles ---------- */
 .share-to-social-handles {
-    width: 300px;
-    height: 100px;
+    width: 70%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 10%;
     flex-direction: column;
 }
 
 .social-handles-facebook {
     display: flex;
     align-items: center;
-    border-radius: 3px;
+    border-radius: .2rem;
     background: #3469af;
-    margin: 10px;
+    margin: 2%;
 }
 
 
 .social-handles-facebook .facebook {
-    margin: 10px;
+    margin-left: 10%;
     color: #fff;
-    padding: 10px;
+    padding: 5% ;
 }
 
 .social-handles-facebook .logo-image {
     align-items: center;
     height: 60px;
-    width: 40px;
-    padding: 5px;
+    width: 15%;
+    justify-content: center;
+    padding: 2%;
     background: #3469af;
 }
 
 .social-handles-facebook .logo-image img {
-    margin-top: 12px;
+    margin-top: 10%;
 }
-
 
 
 
 .social-handles-twitter {
     display: flex;
     align-items: center;
-    border-radius: 3px;
+    border-radius: .2rem;
     background: #4fc4f7;
-    margin: 10px;
+    margin: 2%;
 }
 
 .social-handles-twitter .twitter {
-    margin: 10px;
+    margin-left: 10%;
     color: #fff;
-    padding: 10px;
+    padding: 5% ;
 }
 
 .social-handles-twitter .logo-image {
     align-items: center;
     height: 60px;
-    width: 40px;
-    padding: 5px;
-    background: #35aadd;
+    width: 15%;
+    padding: 3%;
+    background: #32aadd;
 }
 
 .social-handles-twitter .logo-image img {
-    margin-top: 12px;
+    margin-top: 15%;
 }
 
 
 .social-handles-google {
     display: flex;
     align-items: center;
-    border-radius: 3px;
+    border-radius: .2rem;
     background: #e64c66;
-    margin: 10px;
+    margin: 2%;
 }
 
 .social-handles-google .google {
-    margin: 10px;
+    margin-left: 10%;
     color: #fff;
-    padding: 10px;
+    padding: 5% ;
 }
 
 .social-handles-google .logo-image {
     align-items: center;
     height: 60px;
-    width: 40px;
-    padding: 8px;
+    width: 15%;
+    padding: 3%;
     background: #cc324c;
 }
 
 .social-handles-google .logo-image img {
-    margin-top: 12px;
+    margin-top: 30%;
 }
+

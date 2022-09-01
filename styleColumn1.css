@@ -5,72 +5,38 @@
 }
 
 .card {
-    width: 300px;
-    height: 420px;
+    width: 70%;
     background-color: #394165;
-    border-radius: 3px;
+    border-radius: .2rem;
 }
 
 .header {
-    border-radius: 3px 3px 0px 0px;
-    padding: 5px;
+    width: 100%;
+    border-radius: 2% 2% 0px 0%;
+    padding: 5%;
     background-color: #10a8ab;
 }
 
-.container h3 {
+.card h3 {
     color: #FFFFFF;
-    margin-left: 5rem;
+    margin-left: 3.5rem;
 }
 
-.iconM {
-    font-size: 18px;
-    margin-left: 170px;
-}
-
-.icon {
-    margin-right: 8px;
-}
-
-.body li {
-    transition: 1s all;
-    font-size: 18px;
-    padding: 15px;
-    margin-left: -40px;
-    margin-top: 0px;
+.body .body-items {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    padding: 10%;
     color: #fff;
-    list-style: none;
-    display: block;
-    border-top-right-radius: 10px 10px;
-    border-bottom-right-radius: 10px 10px;
+    margin-bottom: 10%;
 }
 
-li:hover {
-    transition: 1s all;
-    color: #2f89fc;
-    background-color: rgba(42, 56, 65, 0.82);
-    border-top-right-radius: 10px 10px;
-    border-bottom-right-radius: 10px 10px;
-    cursor: pointer;
+.body-items img {
+  margin-right: 10%;
 }
 
-.body>li {
-    float: left;
-}
 
-.body li ul {
-    background: #1E2B32;
-    margin-left: 280px;
-    margin-top: -38px;
-    display: none;
-    position: absolute;
-    border-top-right-radius: 15px 15px;
-    border-bottom-right-radius: 15px 15px;
-}
-
-.body li:hover>ul {
-    display: block;
-    cursor: pointer;
-}
 
 
 /* ----------- Audience Stats section ------------> */
@@ -84,103 +50,98 @@ a {
 }
 
 .audience-os-stats {
-    width: 300px;
+    width: 70%;
     height: 350px;
     background-color: #394165;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 20px 0px 20px;
+    padding: 5% 0% 0% 0%;
     border-radius: 3px;
-    margin-top: 20px;
+    margin-top: 10%;
 }
 
 .audience-os-stats .audience-os-stats-heading span {
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: .1rem;
     justify-content: center;
 }
 
-.audience-os-stats-graph section {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.audience-os-stats-graph {
+    width: 45%;
+    height: 120px;
+    border-radius: 60%;
     background: #787878;
 }
 
 .audience-os-stats-footer {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
 .ios-os-version-container {
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
 
 .ios-os-version-container .top-bar {
     background: #d25470;
-    margin-right: 2px;
+    margin-right: 2%;
     height: 5px;
 }
 
 .mac-os-version-container {
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
 
 .mac-os-version-container .top-bar {
     background: #14a4aa;
-    margin-right: 2px;
+    margin-right: 2%;
     height: 5px;
 }
 
 
 .linux-os-version-container {
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
 
 .linux-os-version-container .top-bar {
     background: #ecb368;
-    margin-right: 2px;
+    margin-right: 2%;
     height: 5px;
 }
 
 .win-os-version-container {
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
 
 .win-os-version-container .top-bar {
     background: #5cbff1;
-    margin-right: 2px;
+    margin-right: 2%;
     height: 5px;
 }
 
 .os-version {
+    width: 100%;
     display: flex;
     align-items: center;
     background: #50587c;
-    width: 73px;
     height: 60px;
     justify-content: center;
-    margin-right: 2px;
+    margin-right: 2%;
     color: #fff;
 }
 
 .os-version span {
-    margin-left: 8px;
-}
-
-
-
-@media(max-width:612px) {
-    .box {
-        flex-grow: 0.7;
-    }
+    margin-left: 8%;
 }
 
 
@@ -188,15 +149,16 @@ a {
 
 .stocks-analysis {
     background: #394165;
-    width: 300px;
+    width: 70%;
     display: flex;
-    margin-top: 20px;
+    margin-top: 10%;
     flex-direction: column;
 }
 
 .stock-analysis-image {
+    padding: 0;
+    margin: 0;
     width: 100%;
-    height: 13rem;
     background-color: var(--green-color);
 }
 
@@ -264,8 +226,8 @@ a {
 
 .media-player-section {
     display: flex;
-    width: 300px;
-    margin-top: 20px;
+    width: 70%;
+    margin-top: 10%;
     flex-direction: column;
 }
 
@@ -273,8 +235,8 @@ a {
     background: #787878;
     width: 100%;
     display: flex;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
     height: 200px;
     justify-content: center;
     align-items: center;
@@ -288,8 +250,8 @@ a {
 
 .progress-area {
     height: 6px;
-    width: 60%;
-    border-radius: 50px;
+    width: 80%;
+    border-radius: .5rem;
     background: #51597d;
     cursor: pointer;
 }
@@ -327,13 +289,13 @@ a {
     display: flex;
     flex-direction: row;
     color: #fff;
-    border-radius: 2px;
-    padding: 10px;
+    border-radius: .2rem;
+    padding: 3.5%;
     background: #394165;
     align-items: center;
     justify-content: space-between;
 }
 
 .controls .timer {
-    margin-left: 50px;
+    margin-left: 10%;
 }
